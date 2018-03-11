@@ -1,0 +1,28 @@
+{
+  "name": "node-mean",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "set NODE_ENV=development& set DEBUG=node-mean* & nodemon server/index.js --exec babel-node"
+  },
+  "private": true,
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "basic-auth": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "core-js": "^2.4.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "nodemon": "^1.12.1",
+    "tsscmp": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "~6.0.60",
+    "babel-preset-stage-0": "^6.24.1",
+    "ts-node": "~3.2.0"
+  }
+}
