@@ -8,7 +8,7 @@ Run `npm start` for a dev server. Navigate to `http://localhost:3000/`.
 
 ## EndPoints
 
-`IMPORTANTE CREDENCIALES: ` USUARIO: admin PASSWAORD:admin
+`IMPORTANTE CREDENCIALES: ` USUARIO: admin   PASSWORD: admin
 
 `http://localhost:3000/service/articles`
 
